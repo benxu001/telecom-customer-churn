@@ -42,15 +42,16 @@ Key findings from EDA include:
 
 These insights highlight both **pricing sensitivity** and **contract structure** as major churn drivers.
 
-<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/322aaf2b-7acc-43e6-8e80-ea39ac7dbcf4" />
-<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/2d83e1ca-538d-4f0e-84ce-9005bdcc38a4" />
-<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/1234d043-bbdc-4ae5-8262-68f7f3e82d1a" />
-<img width="420" height="250" alt="image" src="https://github.com/user-attachments/assets/57a01dfd-a230-43b4-97a6-abf170f7b31b" />
-<img width="420" height="250" alt="image" src="https://github.com/user-attachments/assets/33d4d729-6075-4ed6-94f7-a5d81b4bb4f6" />
-<img width="420" height="250" alt="image" src="https://github.com/user-attachments/assets/acb8d7e5-2336-44a5-ba1a-6888538e453c" />
-<img width="420" height="250" alt="image" src="https://github.com/user-attachments/assets/19701082-3932-4ec1-8593-903fc4fed3fc" />
-<img width="420" height="250" alt="image" src="https://github.com/user-attachments/assets/3fa180b4-2b0c-4c24-a750-d9fd15844df5" />
-<img width="420" height="250" alt="image" src="https://github.com/user-attachments/assets/141cc9d1-862e-4145-924c-acaf597265e1" />
+<img width="1000" height="400" alt="image" src="https://github.com/user-attachments/assets/e1a89df3-c9a0-4a33-90fd-404f86a03ddc" />
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/10bf19a1-11d6-44bf-b941-9f0eaf910229" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/38e45678-71aa-41a7-ade6-bfdcca848040" />
+<img width="333" height="200" alt="image" src="https://github.com/user-attachments/assets/86fd3e7d-1ef7-4177-803e-4d42def80495" />
+<img width="333" height="200" alt="image" src="https://github.com/user-attachments/assets/7c899adf-7ee6-4235-b52b-73466eeae8d8" />
+<img width="333" height="200" alt="image" src="https://github.com/user-attachments/assets/7abf19cf-27a4-40ee-9b65-455bdec985d2" />
+<img width="333" height="200" alt="image" src="https://github.com/user-attachments/assets/e1967b8a-e27c-45c9-9af7-b601b1c20ba5" />
+<img width="333" height="200" alt="image" src="https://github.com/user-attachments/assets/cf1956cf-b62c-4412-ae19-736e0502031b" />
+<img width="333" height="200" alt="image" src="https://github.com/user-attachments/assets/c14c5fe9-090e-4be0-88d4-ee98c8a120fc" />
+
 
 ## Data Preparation & Feature Engineering
 
@@ -89,15 +90,19 @@ Three different classification models were trained and evaluated. The goal was n
 *   **Recall (Churn Class):** 0.67
   *   Adjusting the classification threshold to 0.4 significantly improved the recall for the churn class (meaning more actual churners were identified), though this came with a slight decrease in precision (more false positives).
 
-<img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/58245ace-e286-42c2-83d9-5040f9d4f5ee" />
-<img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/0ef138f9-5931-40fb-94f5-f71532d1e863" />
+
+<img width="500" height="450" alt="image" src="https://github.com/user-attachments/assets/6762f4af-232a-4172-8ce2-97378e86b325" />
+<img width="500" height="450" alt="image" src="https://github.com/user-attachments/assets/2a2bc9f1-4c65-4e40-b465-ea2bca7bee5b" />
+
 
 ## Predictive Insights
 *   **Feature Importance (Logistic Regression):**
     *   Features like **Contract_Two year**, **OnlineSecurity_Yes**, and **TechSupport_Yes** had negative coefficients, indicating they **decrease** the likelihood of churn.
     *   Features like **InternetService_Fiber optic**, **PaperlessBilling_Yes**, and **PaymentMethod_Electronic check** had positive coefficients, indicating they **increase** the likelihood of churn.
     *   Model results aligned closely with trends observed during EDA, reinforcing confidence in the findings
-<img width="1189" height="690" alt="image" src="https://github.com/user-attachments/assets/6ee08c6b-73be-4628-bdfe-130ee810f044" />
+
+<img width="1118" height="611" alt="image" src="https://github.com/user-attachments/assets/e7e9d769-511b-49f4-b1ad-82c30c756505" />
+
 
 ## Business Insights & Recommendations
 *   **Contract Length & Services:** Customers on longer contracts and those utilizing additional services like online security and technical support are less likely to churn. **Recommendation:** Offer incentives for longer-term contracts and promote value-added services.
